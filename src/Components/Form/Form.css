@@ -1,0 +1,41 @@
+.Form{
+    background-color: #3AD886;
+    width: 400px;
+    height: 600px;
+    padding: 20px;
+    margin: 20px auto;
+    font-size: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.form_img{
+    width: 400px;
+    height: 250px;
+    display: inline-block;
+    object-fit: contain;
+}
+
+input{
+    width: 400px;
+}
+
+button{
+    background-color: #ED6B5A;
+    font-size: 15px;
+    padding: 10px;
+    margin: 25px;
+    border-radius: 10px;
+}
+
+.cancel{
+    float: left;
+}
+
+.add{
+    float: right;
+}

@@ -1,0 +1,8 @@
+.Dashboard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    display: inline-block;
+    vertical-align: top;
+    margin: auto;
+}

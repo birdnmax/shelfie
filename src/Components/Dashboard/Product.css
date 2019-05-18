@@ -1,0 +1,24 @@
+.Product{
+    background-color: #D34735;
+    width: 500px;
+    height: 250px;
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.product_img{
+    width: 400px;
+    max-height: 250px;
+    display: inline-block;
+    object-fit: contain;
+}
+
+.product_info{
+    margin-block-start: .2em;
+    margin-block-end: .2em;
+}
